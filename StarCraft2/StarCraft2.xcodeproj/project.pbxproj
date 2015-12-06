@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61179F71BFDC8570001CBD3 /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B61179F61BFDC8570001CBD3 /* LXReorderableCollectionViewFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
+		B6187FA71BD50A6800DE08D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6187FA61BD50A6800DE08D6 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		B632E5101BD6128E007E25D0 /* TerranCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B632E50F1BD6128E007E25D0 /* TerranCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B632E5171BD62650007E25D0 /* SCUnits.m in Sources */ = {isa = PBXBuildFile; fileRef = B632E5161BD62650007E25D0 /* SCUnits.m */; settings = {ASSET_TAGS = (); }; };
+		B632E51A1BD62665007E25D0 /* SCUnitsGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B632E5191BD62665007E25D0 /* SCUnitsGroup.m */; settings = {ASSET_TAGS = (); }; };
+		B632E6011BD65CFB007E25D0 /* Terran_List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B632E6001BD65CFB007E25D0 /* Terran_List.plist */; settings = {ASSET_TAGS = (); }; };
+		B632E6061BD66308007E25D0 /* TerranViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B632E6051BD66308007E25D0 /* TerranViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B6ECC8F81BD3C46A00E2AE40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ECC8F71BD3C46A00E2AE40 /* main.m */; };
+		B6ECC8FB1BD3C46A00E2AE40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ECC8FA1BD3C46A00E2AE40 /* AppDelegate.m */; };
+		B6ECC8FE1BD3C46A00E2AE40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ECC8FD1BD3C46A00E2AE40 /* ViewController.m */; };
+		B6ECC9011BD3C46A00E2AE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6ECC8FF1BD3C46A00E2AE40 /* Main.storyboard */; };
+		B6ECC9061BD3C46A00E2AE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6ECC9041BD3C46A00E2AE40 /* LaunchScreen.storyboard */; };
+		B6ECC9111BD3C46A00E2AE40 /* StarCraft2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ECC9101BD3C46A00E2AE40 /* StarCraft2Tests.m */; };
+		B6ECC91C1BD3C46A00E2AE40 /* StarCraft2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ECC91B1BD3C46A00E2AE40 /* StarCraft2UITests.m */; };
+		B6ECC92F1BD3D94400E2AE40 /* SCRaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ECC92E1BD3D94400E2AE40 /* SCRaceCell.m */; settings = {ASSET_TAGS = (); }; };
+		B6ECC9311BD3D95100E2AE40 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6ECC9301BD3D95100E2AE40 /* View.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6ECC90D1BD3C46A00E2AE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6ECC8EB1BD3C46A00E2AE40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6ECC8F21BD3C46A00E2AE40;
+			remoteInfo = StarCraft2;
+		};
+		B6ECC9181BD3C46A00E2AE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6ECC8EB1BD3C46A00E2AE40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6ECC8F21BD3C46A00E2AE40;
+			remoteInfo = StarCraft2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B61179F51BFDC8570001CBD3 /* LXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		B61179F61BFDC8570001CBD3 /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		B6187FA61BD50A6800DE08D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B632E50E1BD6128E007E25D0 /* TerranCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerranCollectionViewCell.h; sourceTree = "<group>"; };
+		B632E50F1BD6128E007E25D0 /* TerranCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerranCollectionViewCell.m; sourceTree = "<group>"; };
+		B632E5151BD62650007E25D0 /* SCUnits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUnits.h; sourceTree = "<group>"; };
+		B632E5161BD62650007E25D0 /* SCUnits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCUnits.m; sourceTree = "<group>"; };
+		B632E5181BD62665007E25D0 /* SCUnitsGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUnitsGroup.h; sourceTree = "<group>"; };
+		B632E5191BD62665007E25D0 /* SCUnitsGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCUnitsGroup.m; sourceTree = "<group>"; };
+		B632E6001BD65CFB007E25D0 /* Terran_List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Terran_List.plist; sourceTree = "<group>"; };
+		B632E6041BD66308007E25D0 /* TerranViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerranViewController.h; sourceTree = "<group>"; };
+		B632E6051BD66308007E25D0 /* TerranViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerranViewController.m; sourceTree = "<group>"; };
+		B6ECC8F31BD3C46A00E2AE40 /* StarCraft2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarCraft2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ECC8F71BD3C46A00E2AE40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6ECC8F91BD3C46A00E2AE40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6ECC8FA1BD3C46A00E2AE40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6ECC8FC1BD3C46A00E2AE40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6ECC8FD1BD3C46A00E2AE40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6ECC9001BD3C46A00E2AE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6ECC9051BD3C46A00E2AE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6ECC9071BD3C46A00E2AE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6ECC90C1BD3C46A00E2AE40 /* StarCraft2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarCraft2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ECC9101BD3C46A00E2AE40 /* StarCraft2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarCraft2Tests.m; sourceTree = "<group>"; };
+		B6ECC9121BD3C46A00E2AE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6ECC9171BD3C46A00E2AE40 /* StarCraft2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarCraft2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ECC91B1BD3C46A00E2AE40 /* StarCraft2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarCraft2UITests.m; sourceTree = "<group>"; };
+		B6ECC91D1BD3C46A00E2AE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6ECC92D1BD3D94400E2AE40 /* SCRaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRaceCell.h; sourceTree = "<group>"; };
+		B6ECC92E1BD3D94400E2AE40 /* SCRaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRaceCell.m; sourceTree = "<group>"; };
+		B6ECC9301BD3D95100E2AE40 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6ECC8F01BD3C46A00E2AE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ECC9091BD3C46A00E2AE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ECC9141BD3C46A00E2AE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B61179F81BFDC85A0001CBD3 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B61179F51BFDC8570001CBD3 /* LXReorderableCollectionViewFlowLayout.h */,
+				B61179F61BFDC8570001CBD3 /* LXReorderableCollectionViewFlowLayout.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		B6ECC8EA1BD3C46A00E2AE40 = {
+			isa = PBXGroup;
+			children = (
+				B6ECC8F51BD3C46A00E2AE40 /* StarCraft2 */,
+				B6ECC90F1BD3C46A00E2AE40 /* StarCraft2Tests */,
+				B6ECC91A1BD3C46A00E2AE40 /* StarCraft2UITests */,
+				B6ECC8F41BD3C46A00E2AE40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6ECC8F41BD3C46A00E2AE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6ECC8F31BD3C46A00E2AE40 /* StarCraft2.app */,
+				B6ECC90C1BD3C46A00E2AE40 /* StarCraft2Tests.xctest */,
+				B6ECC9171BD3C46A00E2AE40 /* StarCraft2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6ECC8F51BD3C46A00E2AE40 /* StarCraft2 */ = {
+			isa = PBXGroup;
+			children = (
+				B61179F81BFDC85A0001CBD3 /* Library */,
+				B6ECC92C1BD3C4A100E2AE40 /* Other */,
+				B6ECC92B1BD3C48300E2AE40 /* Model */,
+				B6ECC92A1BD3C47D00E2AE40 /* View */,
+				B6ECC9291BD3C47300E2AE40 /* Controller */,
+				B6ECC8F61BD3C46A00E2AE40 /* Supporting Files */,
+			);
+			path = StarCraft2;
+			sourceTree = "<group>";
+		};
+		B6ECC8F61BD3C46A00E2AE40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6187FA61BD50A6800DE08D6 /* Assets.xcassets */,
+				B6ECC9041BD3C46A00E2AE40 /* LaunchScreen.storyboard */,
+				B632E6001BD65CFB007E25D0 /* Terran_List.plist */,
+				B6ECC9071BD3C46A00E2AE40 /* Info.plist */,
+				B6ECC8F71BD3C46A00E2AE40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6ECC90F1BD3C46A00E2AE40 /* StarCraft2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B6ECC9101BD3C46A00E2AE40 /* StarCraft2Tests.m */,
+				B6ECC9121BD3C46A00E2AE40 /* Info.plist */,
+			);
+			path = StarCraft2Tests;
+			sourceTree = "<group>";
+		};
+		B6ECC91A1BD3C46A00E2AE40 /* StarCraft2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6ECC91B1BD3C46A00E2AE40 /* StarCraft2UITests.m */,
+				B6ECC91D1BD3C46A00E2AE40 /* Info.plist */,
+			);
+			path = StarCraft2UITests;
+			sourceTree = "<group>";
+		};
+		B6ECC9291BD3C47300E2AE40 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6ECC8FC1BD3C46A00E2AE40 /* ViewController.h */,
+				B6ECC8FD1BD3C46A00E2AE40 /* ViewController.m */,
+				B632E6041BD66308007E25D0 /* TerranViewController.h */,
+				B632E6051BD66308007E25D0 /* TerranViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B6ECC92A1BD3C47D00E2AE40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6ECC92D1BD3D94400E2AE40 /* SCRaceCell.h */,
+				B6ECC92E1BD3D94400E2AE40 /* SCRaceCell.m */,
+				B632E50E1BD6128E007E25D0 /* TerranCollectionViewCell.h */,
+				B632E50F1BD6128E007E25D0 /* TerranCollectionViewCell.m */,
+				B6ECC9301BD3D95100E2AE40 /* View.xib */,
+				B6ECC8FF1BD3C46A00E2AE40 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B6ECC92B1BD3C48300E2AE40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B632E5151BD62650007E25D0 /* SCUnits.h */,
+				B632E5161BD62650007E25D0 /* SCUnits.m */,
+				B632E5181BD62665007E25D0 /* SCUnitsGroup.h */,
+				B632E5191BD62665007E25D0 /* SCUnitsGroup.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B6ECC92C1BD3C4A100E2AE40 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B6ECC8F91BD3C46A00E2AE40 /* AppDelegate.h */,
+				B6ECC8FA1BD3C46A00E2AE40 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6ECC8F21BD3C46A00E2AE40 /* StarCraft2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6ECC9201BD3C46A00E2AE40 /* Build configuration list for PBXNativeTarget "StarCraft2" */;
+			buildPhases = (
+				B6ECC8EF1BD3C46A00E2AE40 /* Sources */,
+				B6ECC8F01BD3C46A00E2AE40 /* Frameworks */,
+				B6ECC8F11BD3C46A00E2AE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarCraft2;
+			productName = StarCraft2;
+			productReference = B6ECC8F31BD3C46A00E2AE40 /* StarCraft2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6ECC90B1BD3C46A00E2AE40 /* StarCraft2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6ECC9231BD3C46A00E2AE40 /* Build configuration list for PBXNativeTarget "StarCraft2Tests" */;
+			buildPhases = (
+				B6ECC9081BD3C46A00E2AE40 /* Sources */,
+				B6ECC9091BD3C46A00E2AE40 /* Frameworks */,
+				B6ECC90A1BD3C46A00E2AE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6ECC90E1BD3C46A00E2AE40 /* PBXTargetDependency */,
+			);
+			name = StarCraft2Tests;
+			productName = StarCraft2Tests;
+			productReference = B6ECC90C1BD3C46A00E2AE40 /* StarCraft2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6ECC9161BD3C46A00E2AE40 /* StarCraft2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6ECC9261BD3C46A00E2AE40 /* Build configuration list for PBXNativeTarget "StarCraft2UITests" */;
+			buildPhases = (
+				B6ECC9131BD3C46A00E2AE40 /* Sources */,
+				B6ECC9141BD3C46A00E2AE40 /* Frameworks */,
+				B6ECC9151BD3C46A00E2AE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6ECC9191BD3C46A00E2AE40 /* PBXTargetDependency */,
+			);
+			name = StarCraft2UITests;
+			productName = StarCraft2UITests;
+			productReference = B6ECC9171BD3C46A00E2AE40 /* StarCraft2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6ECC8EB1BD3C46A00E2AE40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "赖三聘";
+				TargetAttributes = {
+					B6ECC8F21BD3C46A00E2AE40 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3U2E599VZ4;
+					};
+					B6ECC90B1BD3C46A00E2AE40 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3U2E599VZ4;
+						TestTargetID = B6ECC8F21BD3C46A00E2AE40;
+					};
+					B6ECC9161BD3C46A00E2AE40 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3U2E599VZ4;
+						TestTargetID = B6ECC8F21BD3C46A00E2AE40;
+					};
+				};
+			};
+			buildConfigurationList = B6ECC8EE1BD3C46A00E2AE40 /* Build configuration list for PBXProject "StarCraft2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6ECC8EA1BD3C46A00E2AE40;
+			productRefGroup = B6ECC8F41BD3C46A00E2AE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6ECC8F21BD3C46A00E2AE40 /* StarCraft2 */,
+				B6ECC90B1BD3C46A00E2AE40 /* StarCraft2Tests */,
+				B6ECC9161BD3C46A00E2AE40 /* StarCraft2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6ECC8F11BD3C46A00E2AE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ECC9311BD3D95100E2AE40 /* View.xib in Resources */,
+				B632E6011BD65CFB007E25D0 /* Terran_List.plist in Resources */,
+				B6ECC9061BD3C46A00E2AE40 /* LaunchScreen.storyboard in Resources */,
+				B6187FA71BD50A6800DE08D6 /* Assets.xcassets in Resources */,
+				B6ECC9011BD3C46A00E2AE40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ECC90A1BD3C46A00E2AE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ECC9151BD3C46A00E2AE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6ECC8EF1BD3C46A00E2AE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ECC92F1BD3D94400E2AE40 /* SCRaceCell.m in Sources */,
+				B632E5171BD62650007E25D0 /* SCUnits.m in Sources */,
+				B6ECC8FE1BD3C46A00E2AE40 /* ViewController.m in Sources */,
+				B61179F71BFDC8570001CBD3 /* LXReorderableCollectionViewFlowLayout.m in Sources */,
+				B6ECC8FB1BD3C46A00E2AE40 /* AppDelegate.m in Sources */,
+				B632E6061BD66308007E25D0 /* TerranViewController.m in Sources */,
+				B632E5101BD6128E007E25D0 /* TerranCollectionViewCell.m in Sources */,
+				B6ECC8F81BD3C46A00E2AE40 /* main.m in Sources */,
+				B632E51A1BD62665007E25D0 /* SCUnitsGroup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ECC9081BD3C46A00E2AE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ECC9111BD3C46A00E2AE40 /* StarCraft2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ECC9131BD3C46A00E2AE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ECC91C1BD3C46A00E2AE40 /* StarCraft2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6ECC90E1BD3C46A00E2AE40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6ECC8F21BD3C46A00E2AE40 /* StarCraft2 */;
+			targetProxy = B6ECC90D1BD3C46A00E2AE40 /* PBXContainerItemProxy */;
+		};
+		B6ECC9191BD3C46A00E2AE40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6ECC8F21BD3C46A00E2AE40 /* StarCraft2 */;
+			targetProxy = B6ECC9181BD3C46A00E2AE40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6ECC8FF1BD3C46A00E2AE40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6ECC9001BD3C46A00E2AE40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6ECC9041BD3C46A00E2AE40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6ECC9051BD3C46A00E2AE40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6ECC91E1BD3C46A00E2AE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6ECC91F1BD3C46A00E2AE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6ECC9211BD3C46A00E2AE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarCraft2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111402083.StarCraft2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B6ECC9221BD3C46A00E2AE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarCraft2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111402083.StarCraft2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B6ECC9241BD3C46A00E2AE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarCraft2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111402083.StarCraft2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarCraft2.app/StarCraft2";
+			};
+			name = Debug;
+		};
+		B6ECC9251BD3C46A00E2AE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarCraft2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111402083.StarCraft2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarCraft2.app/StarCraft2";
+			};
+			name = Release;
+		};
+		B6ECC9271BD3C46A00E2AE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StarCraft2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111402083.StarCraft2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StarCraft2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B6ECC9281BD3C46A00E2AE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StarCraft2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111402083.StarCraft2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StarCraft2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6ECC8EE1BD3C46A00E2AE40 /* Build configuration list for PBXProject "StarCraft2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ECC91E1BD3C46A00E2AE40 /* Debug */,
+				B6ECC91F1BD3C46A00E2AE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6ECC9201BD3C46A00E2AE40 /* Build configuration list for PBXNativeTarget "StarCraft2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ECC9211BD3C46A00E2AE40 /* Debug */,
+				B6ECC9221BD3C46A00E2AE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6ECC9231BD3C46A00E2AE40 /* Build configuration list for PBXNativeTarget "StarCraft2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ECC9241BD3C46A00E2AE40 /* Debug */,
+				B6ECC9251BD3C46A00E2AE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6ECC9261BD3C46A00E2AE40 /* Build configuration list for PBXNativeTarget "StarCraft2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ECC9271BD3C46A00E2AE40 /* Debug */,
+				B6ECC9281BD3C46A00E2AE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6ECC8EB1BD3C46A00E2AE40 /* Project object */;
+}
